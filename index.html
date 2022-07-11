@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <h2>Thank you for taking the time to help us improve the platform</h2>
+    <main>
+        <label for="name">Name</label>
+        <input type="text" placeholder="Enter your name" id="name">
+
+        <label for="email">Email</label>
+        <input type="text" placeholder="Enter your email" id="email">
+
+        <label for="age">Age</label>
+        <input type="text" placeholder="Age" id="age">
+
+        <label for="role">Which option best describes your current role?</label>
+        <select name="role" id="role">
+            <option value="">Select current role</option>
+        </select>
+        <div>
+            <legend>Would you recommend freeCodeCamp to a friend?</legend>
+            
+            <input type="radio" id="contactChoice1"
+            name="contact" value="email">
+           <label for="contactChoice1">Email</label>
+       
+           <input type="radio" id="contactChoice2"
+            name="contact" value="phone">
+           <label for="contactChoice2">Phone</label>
+       
+           <input type="radio" id="contactChoice3"
+            name="contact" value="mail">
+           <label for="contactChoice3">Mail</label>
+        </div>
+
+        <label for="feature">What is your favorite feature of freeCodeCamp?</label>
+        <select name="feature" id="feature">
+            <option value="">Select current role</option>
+        </select>
+
+
+            <legend>Choose your interests</legend>
+              <div>
+                <input type="checkbox" id="coding" name="interest" value="coding">
+                <label for="coding">Coding</label>
+              </div>
+              <div>
+                <input type="checkbox" id="music" name="interest" value="music">
+                <label for="music">Music</label>
+              </div>
+              <div>
+                <input type="checkbox" id="art" name="interest" value="art">
+                <label for="art">Art</label>
+              </div>
+              <div>
+                <input type="checkbox" id="sports" name="interest" value="sports">
+                <label for="sports">Sports</label>
+              </div>
+              <div>
+                <input type="checkbox" id="cooking" name="interest" value="cooking">
+                <label for="cooking">Cooking</label>
+              </div>
+              <div>
+                <input type="checkbox" id="other" name="interest" value="other">
+                <label for="other">Other</label>
+                <input type="text" id="otherValue" name="other">
+              </div>
+
+              <legend for="story">Tell us your story:</legend>
+                <textarea id="story" name="story"rows="5" cols="33" placeholder="Enter your comment here...">
+                </textarea>
+
+            <div>
+                <input type="submit" name="" id="" value="Submit">
+            </div>
+
+
+    </main>
+    
+</body>
+</html>
